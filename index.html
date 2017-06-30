@@ -1,0 +1,767 @@
+<html>
+
+	<head>
+		<title>Ecological Footprint</title>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jqm.js"></script>
+		<link rel="stylesheet" type="text/css" href="jqm.css">
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+
+<body>
+
+<!-- PAGE 1 -->
+
+	<div data-role="page" id="home" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			<a href="#mypanel2" class="ui-btn-left" data-icon="gear">Options</a>
+			<h1>Ecological Footprint</h1>
+			
+		</div>
+		<div role="main" class="ui-content">
+			<p>
+			<br><br><br><br><br><br><br><br>
+			<p>Let us find how big your footprint is ! Click Start to find out and let us hope for a good result...</p><br><br><br><br>
+			<a href="#energy1" class="ui-btn">Start</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 2 -->
+
+	<div data-role="page" id="energy1" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+		<h2 align="center">Water Use</h2>
+			<p>
+			<form>
+			1.My shower (or bath) on a typical day is
+			  <select id="q1">
+			    <option>No shower / no bath</option>
+			    <option>1–2 minutes long / one-fourth full tub</option>
+			    <option>3–6 minutes long / half full tub</option>
+			    <option>10 or more minutes long / full tub</option>
+			  </select>
+			  2. I flush the toilet:
+			  <select id="q2">
+			    <option>Every time I use it </option>
+			    <option>Sometimes</option>
+			  </select>
+			  3. When I brush my teeth, I let the water run.
+			  <select id="q3">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  4. I washed the car or watered the lawn today.
+			  <select id="q4">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  5. We use water-saving toilets (6-9 liters/flush).
+			  <select id="q5">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  6. We use low-flow showerheads
+			  <select id="q6">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  7. I use a dishwasher on a typical day.
+			  <select id="q7">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  
+			</form>
+			
+			<a href="#energy2" class="ui-btn">Next</a>
+			
+			</p>
+
+		</div>
+		
+	</div>
+
+	<!-- PAGE 3 -->
+
+	<div data-role="page" id="energy2" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Food</h2>
+			<p>
+			<form>
+			1. Most Regularly I eat:
+			  <select id="q8">
+			    <option>Beef</option>
+			    <option>Chicken</option>
+			    <option>Fish</option>
+			    <option>Wild Fish</option>
+			    <option>Eggs</option>
+			    <option>Dairy Products</option>
+			    <option>Fruit</option>
+			    <option>Vagetables</option>
+			    <option>Grains:bread, cereal, rice</option>
+			  </select>
+			 2. My food is grown locally
+			  <select id="q9">
+			    <option>All</option>
+			    <option>Some</option>
+			    <option>None</option>
+			  </select>
+			  3. My food is organic
+			  <select id="q10">
+			    <option>All</option>
+			    <option>Some</option>
+			    <option>None</option>
+			  </select>
+			  4. I compost my fruit/vegetable scraps and peels.
+			  <select id="q11">
+			    <option>Yes</option>
+			    <option>No</option>
+			    
+			  </select>
+			   5. My food is Processed
+			  <select id="q12">
+			    <option>All</option>
+			    <option>Some</option>
+			    <option>None</option>
+			  </select>
+			    6. My food has packaging
+			  <select id="q13">
+			    <option>All</option>
+			    <option>Some</option>
+			    <option>None</option>
+			  </select>
+			  7. On a typical day, I waste:
+			  <select id="q14">
+			    <option>None of my food</option>
+			    <option>One-fourth of my food</option>
+			    <option>One-third of my food</option>
+			    <option>Half of my food</option>
+			  </select>
+			  
+			</form>
+			
+			<a href="#energy3" class="ui-btn">Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 4 -->
+
+	<div data-role="page" id="energy3" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Transportation</h2>
+			<p>
+			<form>
+			  <select id="q15">
+			  1. On a typical day, I travel by:
+			    <option>Foot</option>
+			    <option>Bike</option>
+			    <option>Public Transit</option>
+			    <option>Privte vehicle</option>
+			  </select>
+			  2. Our vehicle's fuel efficiency is ____ liters/100 kilometers
+			(gallons/60 miles).
+			  <select id="q16">
+			    <option>less than 6 liters / 2 gallons</option>
+			    <option>6-9 litres / 2–2.5 gallons</option>
+			    <option>10-13 litres / 3–3.5 gallons</option>
+			    <option>More than 13 litres / 3.5 gallons</option>
+			  </select>
+			  3. The time I spend in vehicles on a typical day is:
+			  <select id="q17">
+			    <option>No time</option>
+			    <option>Less than half an hour</option>
+			    <option>Half an hour to 1 hour</option>
+			    <option>More than 1 hour</option>
+			  </select>
+			  4. How big is the car in which I travel on
+			a typical day?
+			  <select id="q18">
+			    <option>No car</option>
+			    <option>Small</option>
+			    <option>Medium</option>
+			    <option>Large</option>
+			  </select>
+			  5. Number of cars in our driveway?
+			  <select id="q19">
+			    <option>No car</option>
+			    <option>1 car</option>
+			    <option>2 cars</option>
+			  </select>
+			  6. On a typical day, I walk/run for:
+			  <select id="q20">
+			    <option>5 hours or more</option>
+			    <option>3 to 5 hours</option>
+			    <option>1 to 3 hours</option>
+			    <option>Half an hour to 1 hour</option>
+			    <option>Less than 10 minutes</option>
+			  </select>
+			
+			  
+			</form>
+			
+			<a href="#energy4" class="ui-btn">Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 5 -->
+
+	<div data-role="page" id="energy4" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Shelter</h2>
+			<p>
+			<form>
+			1. Number of rooms per person (divide number of
+			rooms by number of people living at home
+			  <select id="q21">
+			    <option>Fewer than 2 rooms per person</option>
+			    <option>2 to 3 rooms per person</option>
+			    <option>4 to 6 rooms per person</option>
+			    <option>7 or more rooms per person</option>
+			  </select>
+			  2. We share our home with nonfamily members
+			  <select id="q22">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  3. We own a second, or vacation home that is
+			   often empty.
+			  <select id="q23">
+			    <option>No</option>
+			    <option>We own/use it with others.</option>
+			    <option>Yes</option>
+			  </select>
+			  
+			  
+			</form>
+			
+			<a href="#energy5" class="ui-btn">Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 6 -->
+
+	<div data-role="page" id="energy5" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Energy Use</h2>
+			<p>
+			<form>
+			1. In cold months, our house temperature is:
+			  <select id="q24">
+			    <option>Under 15C (59F)</option>
+			    <option>15 to 18C (59 to 64F)</option>
+			    <option>19 to 22C (66 to 71F)</option>
+			    <option>22C (71F) or more</option>
+			  </select>
+			  2. We dry clothes outdoors or on an indoor rack
+			  <select id="q25">
+			    <option>Always</option>
+			    <option>Sometimes</option>
+			    <option>Never</option>
+			   </select>
+			  3. We use an energy-efficient refrigerator.
+			  <select id="q26">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  4. We use compact fluorescent light bulbs.
+			  <select id="q27">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  5. I turn off lights, computer, and television when
+				they're not in use.
+			  <select id="q28">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  6. To cool off, I use:
+			  <select id="q29">
+			    <option>AC</option>
+			    <option>Fan</option>
+			    <option>Nothing</option>
+			  </select>
+			  7. Outdoors today, I spent:
+			  <select id="q30">
+			    <option>7 hours</option>
+			    <option>4 to 6 hours</option>
+			    <option>2 to 3 hours</option>
+			    <option>2 hours or less</option>
+			  </select>
+			  
+			</form>
+			
+			<a href="#energy6" class="ui-btn">Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 7 -->
+
+	<div data-role="page" id="energy6" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Clothing</h2>
+			<p>
+			<form>
+			1. I change my outfit every day and put it in
+			the laundry
+			  <select id="q31">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  2. I am wearing clothes that have been mended
+			or fixed.
+			  <select id="q32">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  3. One-fourth of my clothes are handmade or
+			secondhand.
+			 <select id="q33">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  4. Most of my clothes are purchased new
+			each year.
+			  <select id="q34">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  5. I give the local thrift store clothes that
+			I no longer wear.
+			  <select id="q35">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  6. I buy hemp instead of cotton shirts
+				when I can.
+			   <select id="q36">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  7. I never wear ___ % of the clothes in my cupboard.
+			  <select id="q37">
+			    <option>25%</option>
+			    <option>50%</option>
+			    <option>75%</option>
+			    
+			  </select>
+			  8. I have ____ pairs of shoes.
+			  <select id="q38">
+			    <option>2 to 3</option>
+			    <option>4 to 6 </option>
+			    <option>7 or more</option>
+			  </select>
+			  
+			</form>
+			<a href="#energy7" class="ui-btn">Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 8 -->
+
+	<div data-role="page" id="energy7" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Stuff</h2>
+			<p>
+			<form>
+			1. All my garbage from today could fit into a:
+			  <select id="q39">
+			    <option>Shoebox</option>
+			    <option>Garbage can</option>
+			    <option>No garbage created today!</option>
+			  </select>
+			  2. I reuse items rather than throw them out
+			  <select id="q40">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  3. I repair items rather than throw them out
+			  <select id="q41">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  4. I recycle all my paper, cans, glass, and plastic
+			  <select id="q42">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  5. I avoid disposable items as often as possible
+			 <select id="q43">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  6. I use rechargeable batteries whenever I can.
+			  <select id="q44">
+			    <option>Yes</option>
+			    <option>No</option>
+			  </select>
+			  
+			  
+			</form>
+			<a href="#energy8" class="ui-btn" >Next</a>
+			
+			</p>
+		</div>
+		
+	</div>
+	<!-- PAGE 9 -->
+
+	<div data-role="page" id="energy8" data-theme="b">	
+		<div data-role="panel" id="mypanel2" data-position="left" data-theme="b">
+			<a href="#share" class="ui-btn">Share</a><br>
+			<a href="#about" class="ui-btn">What does it mean?</a><br>
+			<a href="#credits" class="ui-btn">Credits</a><br>
+		</div>
+		<div data-role="header">
+			
+			<h1>Options</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<h2 align="center">Fun</h2>
+			
+			<form>
+			1. For typical play, the land converted into fields,
+rinks, pools, gyms, ski slopes, parking lots, etc.,
+added together occupy:
+			  <select id="q45">
+			    <option>Nothing</option>
+			    <option>Less than 1 hectare / 2.5 acres</option>
+			    <option>1 to 2 hectares / 2.5 to 5 acres</option>
+			    <option>2 or more hectares / 5 or more acres</option>
+			  </select>
+			  2. On a typical day, I use the TV or computer
+			  <select id="q46">
+			    <option>Not at all</option>
+			    <option>Less than 1 hour</option>
+			    <option>More than 1 hour</option>
+			    
+			  </select>
+			  3. How much equipment is needed for
+typical activities?
+			  <select id="q47">
+			    <option>None</option>
+			    <option>Very little</option>
+			    <option>Some</option>
+			    <option>A lot</option>
+			  </select>
+			  
+			</form>
+			<a href="#Final" class="ui-btn" onclick="hello()">Calculate</a>
+			
+			
+		</div>
+		
+	</div>
+	<!-- PAGE 10 -->
+
+	<div data-role="page" id="Final" data-theme="b">	
+		
+		<div data-role="header">
+			<h1>Eclological Footprint</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<br><br><br><br>
+			<div>If everyone is using the resources the way you are, then we will need <div id="answer"></div> Earths</div>
+			<br><br><br>
+			<a href="#share" class="ui-btn" >Please share to educate others</a>
+			<br>
+			<a href="#home" class="ui-btn" >Home</a>
+			
+		</div>
+		
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Share page -->
+
+	<div data-role="page" id="share" data-theme="b">
+		<div data-role="header">
+			<h1>Share</h1>
+		</div>
+		<div role="main" class="ui-content">
+		<br><br>
+			<a href="https://www.facebook.com/" class="ui-btn">Facebook</a><br>
+			<a href="https://twitter.com/" class="ui-btn">Twitter</a><br>
+			<a href="https://orkut.google.com/" class="ui-btn">Orkut</a><br>
+			<a href="#home" class="ui-btn">Home</a>
+		</div>
+		
+	</div>
+
+<!-- About page -->
+
+	<div data-role="page" id="about" data-theme="b">
+		<div data-role="header">
+			<h1>What does it mean?</h1>
+		</div>
+		<div role="main" class="ui-content"><br><br>
+			<p>The simplest way to define ecological footprint would be to call it the impact of human activities measured in terms of the area of biologically productive land and water required to produce the goods consumed and to assimilate the wastes generated. More simply, it is the amount of the environment necessary to produce the goods and services necessary to support a particular lifestyle.</p><br><br>
+			<p>Earth's biologically
+			productive land is available to each person on
+			the planet. To do this, they divide the total area of
+			biologically productive land (12 billion hectares)
+			by the number of people on the planet (about 6.3
+			billion). This amount (1.9 hectares or 4.7 acres per
+			person) is known as the Average Earth Share.</p><br><br>
+			<p>How many Earths would be
+			needed if every human had an ecological footprint
+			the size of theirs. To do this, they divide their ecological
+			footprint by the Average Earth Share. (If the ecological
+			footprint is in acres, divide by 4.7; if it
+			is in hectares, divide by 1.9.) Discuss: How many
+			additional Earths would be needed to meet human
+			demands if everyone lived as we do?</p>
+			<a href="#home" class="ui-btn">Home</a>
+		</div>
+		
+	</div>
+
+<!-- Credits page -->
+
+	<div data-role="page" id="credits" data-theme="b">
+		<div data-role="header">
+			<h1>Credits</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<br><br><br><br>
+			<p>This app is brought to you by Revanth , Balaji , Shubham , Mangal , Venkat</p>
+			<br><br><br>
+			<a href="#home" class="ui-btn">Home</a>
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
